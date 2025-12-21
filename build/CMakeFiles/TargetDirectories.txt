@@ -1,0 +1,8 @@
+/home/jospeh/projets/sdl3-c/build/CMakeFiles/bouncy.dir
+/home/jospeh/projets/sdl3-c/build/CMakeFiles/edit_cache.dir
+/home/jospeh/projets/sdl3-c/build/CMakeFiles/rebuild_cache.dir
+/home/jospeh/projets/sdl3-c/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/home/jospeh/projets/sdl3-c/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+/home/jospeh/projets/sdl3-c/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/home/jospeh/projets/sdl3-c/build/vendored/SDL/CMakeFiles/edit_cache.dir
+/home/jospeh/projets/sdl3-c/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
