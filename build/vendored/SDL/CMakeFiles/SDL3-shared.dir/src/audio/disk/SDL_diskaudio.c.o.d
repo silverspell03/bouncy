@@ -1,6 +1,6 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/disk/SDL_diskaudio.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/disk/SDL_diskaudio.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/disk/../SDL_sysaudio.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/disk/SDL_diskaudio.h
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/disk/../SDL_sysaudio.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/disk/SDL_diskaudio.h

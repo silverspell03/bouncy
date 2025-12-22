@@ -1,82 +1,61 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/SDL_ibus.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/SDL_ibus.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/SDL_ibus.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/SDL_ibus.h \
  /usr/include/ibus-1.0/ibus.h /usr/include/ibus-1.0/ibusversion.h \
- /usr/include/ibus-1.0/ibusshare.h /usr/include/glib-2.0/glib.h \
- /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
- /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
+ /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
+ /usr/include/glib-2.0/glib/gtypes.h \
+ /usr/lib64/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/local_lim.h \
  /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/float.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
  /usr/include/glib-2.0/glib/glib-visibility.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/string.h /usr/include/glib-2.0/glib/garray.h \
+ /usr/include/bits/time.h /usr/include/bits/types.h \
+ /usr/include/bits/timex.h /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/types/locale_t.h /usr/include/string.h \
+ /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
  /usr/include/glib-2.0/glib/gthread.h \
  /usr/include/glib-2.0/glib/gatomic.h \
  /usr/include/glib-2.0/glib/glib-typeof.h \
  /usr/include/glib-2.0/glib/gerror.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
  /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
  /usr/include/stdlib.h /usr/include/glib-2.0/glib/gbacktrace.h \
- /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
- /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
- /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /usr/include/signal.h /usr/include/bits/signum-generic.h \
+ /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/siginfo_t.h \
+ /usr/include/bits/types/__sigval_t.h /usr/include/bits/siginfo-arch.h \
+ /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/types/__sigset_t.h /usr/include/bits/signal_ext.h \
  /usr/include/glib-2.0/glib/gbase64.h \
  /usr/include/glib-2.0/glib/gbitlock.h \
  /usr/include/glib-2.0/glib/gbookmarkfile.h \
@@ -88,8 +67,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/glib-2.0/glib/gconvert.h \
  /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h \
  /usr/include/glib-2.0/glib/gdir.h /usr/include/dirent.h \
- /usr/include/x86_64-linux-gnu/bits/dirent.h \
- /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+ /usr/include/bits/dirent.h /usr/include/bits/dirent_ext.h \
  /usr/include/glib-2.0/glib/genviron.h \
  /usr/include/glib-2.0/glib/gfileutils.h \
  /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
@@ -126,10 +104,9 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/glib-2.0/glib/gstringchunk.h \
  /usr/include/glib-2.0/glib/gstrvbuilder.h \
  /usr/include/glib-2.0/glib/gtestutils.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/glib-2.0/glib/gthreadpool.h \
  /usr/include/glib-2.0/glib/gtimer.h \
  /usr/include/glib-2.0/glib/gtrashstack.h \
@@ -140,16 +117,21 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
  /usr/include/glib-2.0/glib/deprecated/gmain.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
- /usr/include/glib-2.0/glib/deprecated/gthread.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/sys/types.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/linux/sched/types.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/bits/endian.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /usr/include/ibus-1.0/ibusobject.h /usr/include/glib-2.0/glib-object.h \
+ /usr/include/ibus-1.0/ibus-visibility.h \
+ /usr/include/ibus-1.0/ibusshare.h /usr/include/ibus-1.0/ibusobject.h \
+ /usr/include/glib-2.0/glib-object.h \
  /usr/include/glib-2.0/gobject/gbinding.h \
  /usr/include/glib-2.0/gobject/gobject.h \
  /usr/include/glib-2.0/gobject/gtype.h \
@@ -338,7 +320,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/ibus-1.0/ibusservice.h /usr/include/ibus-1.0/ibusfactory.h \
  /usr/include/ibus-1.0/ibusservice.h /usr/include/ibus-1.0/ibusengine.h \
  /usr/include/ibus-1.0/ibuslookuptable.h /usr/include/ibus-1.0/ibustext.h \
- /usr/include/ibus-1.0/ibusproplist.h \
+ /usr/include/ibus-1.0/ibusmessage.h /usr/include/ibus-1.0/ibusproplist.h \
  /usr/include/ibus-1.0/ibusproperty.h /usr/include/ibus-1.0/ibusengine.h \
  /usr/include/ibus-1.0/ibusenginesimple.h \
  /usr/include/ibus-1.0/ibuskeysyms.h /usr/include/ibus-1.0/ibuserror.h \
@@ -364,9 +346,9 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/ibus-1.0/ibusxevent.h \
  /usr/include/ibus-1.0/ibusaccelgroup.h /usr/include/ibus-1.0/ibustypes.h \
  /usr/include/ibus-1.0/ibuskeysyms-compat.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/SDL_dbus.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/SDL_dbus.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
- /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h \
+ /usr/lib64/dbus-1.0/include/dbus/dbus-arch-deps.h \
  /usr/include/dbus-1.0/dbus/dbus-macros.h \
  /usr/include/dbus-1.0/dbus/dbus-address.h \
  /usr/include/dbus-1.0/dbus/dbus-types.h \
@@ -383,23 +365,23 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/dbus-1.0/dbus/dbus-signature.h \
  /usr/include/dbus-1.0/dbus/dbus-syntax.h \
  /usr/include/dbus-1.0/dbus/dbus-threads.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_vulkan.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_error.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_begin_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../events/SDL_keyboard_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../events/SDL_keymap_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/../SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/../../events/SDL_keymap_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/../../core/linux/SDL_dbus.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/../../core/linux/SDL_ime.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11dyn.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../events/SDL_keyboard_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../events/SDL_keymap_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11video.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/../SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/../../events/SDL_keymap_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/../../core/linux/SDL_dbus.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/../../core/linux/SDL_ime.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11dyn.h \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
@@ -407,20 +389,16 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/X11/Xresource.h /usr/include/X11/XKBlib.h \
  /usr/include/X11/extensions/XKBstr.h /usr/include/X11/extensions/XKB.h \
  /usr/include/X11/Xlibint.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h \
  /usr/include/X11/Xprotostr.h /usr/include/X11/XlibConf.h \
  /usr/include/X11/Xthreads.h /usr/include/X11/Xfuncs.h \
- /usr/include/X11/extensions/Xext.h \
- /usr/include/x86_64-linux-gnu/sys/ipc.h \
- /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
- /usr/include/x86_64-linux-gnu/bits/ipc.h \
- /usr/include/x86_64-linux-gnu/bits/ipc-perm.h \
- /usr/include/x86_64-linux-gnu/sys/shm.h \
- /usr/include/x86_64-linux-gnu/bits/shm.h \
- /usr/include/x86_64-linux-gnu/bits/shmlba.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_shmid_ds.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_shmid64_ds.h \
+ /usr/include/X11/extensions/Xext.h /usr/include/sys/ipc.h \
+ /usr/include/bits/ipctypes.h /usr/include/bits/ipc.h \
+ /usr/include/bits/ipc-perm.h /usr/include/sys/shm.h \
+ /usr/include/bits/shm.h /usr/include/bits/shmlba.h \
+ /usr/include/bits/types/struct_shmid_ds.h \
+ /usr/include/bits/types/struct_shmid64_ds.h \
  /usr/include/X11/extensions/XShm.h /usr/include/X11/extensions/shm.h \
  /usr/include/X11/Xcursor/Xcursor.h /usr/include/stdio.h \
  /usr/include/X11/extensions/Xdbe.h /usr/include/X11/extensions/dbe.h \
@@ -438,28 +416,26 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: \
  /usr/include/X11/extensions/XTest.h \
  /usr/include/X11/extensions/xtestconst.h \
  /usr/include/X11/extensions/XInput.h /usr/include/X11/extensions/XI.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11sym.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11clipboard.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11events.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11keyboard.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11modes.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11settings.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/xsettings-client.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11mouse.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11opengl.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_opengl.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11sym.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11clipboard.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11events.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11keyboard.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11modes.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11settings.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/xsettings-client.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11mouse.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11opengl.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_opengl.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
  /usr/include/GL/glx.h /usr/include/GL/gl.h /usr/include/GL/glxext.h \
  /usr/include/inttypes.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11window.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11window.h \
  /usr/include/EGL/egl.h /usr/include/EGL/eglplatform.h \
  /usr/include/KHR/khrplatform.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/linux/../../video/x11/SDL_x11vulkan.h \
- /usr/include/x86_64-linux-gnu/sys/inotify.h \
- /usr/include/x86_64-linux-gnu/bits/inotify.h /usr/include/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h
+ /home/connard/projets/bouncy/vendored/SDL/src/core/linux/../../video/x11/SDL_x11vulkan.h \
+ /usr/include/sys/inotify.h /usr/include/bits/inotify.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/bits/stat.h \
+ /usr/include/bits/struct_stat.h

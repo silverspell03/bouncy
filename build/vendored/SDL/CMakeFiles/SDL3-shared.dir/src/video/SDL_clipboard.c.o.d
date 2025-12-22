@@ -1,27 +1,27 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_clipboard.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_clipboard.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_clipboard_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_vulkan.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_error.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_begin_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_events_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/../video/SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_clipboardevents_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_displayevents_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_dropevents_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_keyboard_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_keymap_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_mouse_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_touch_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_pen_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/../SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_windowevents_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/../events/SDL_clipboardevents_c.h
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_clipboard_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_events_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/../video/SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_clipboardevents_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_displayevents_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_dropevents_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_keyboard_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_keymap_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_mouse_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_touch_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_pen_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/../SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_windowevents_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/../events/SDL_clipboardevents_c.h

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/bouncy.dir/link.d"
   "CMakeFiles/bouncy.dir/bouncy.c.o"
   "CMakeFiles/bouncy.dir/bouncy.c.o.d"
   "bouncy"

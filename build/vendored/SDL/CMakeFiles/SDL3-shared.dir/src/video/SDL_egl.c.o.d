@@ -1,23 +1,23 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_egl.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_egl.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_vulkan.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_error.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_begin_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/SDL_egl_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_egl.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/SDL_egl_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_egl.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
  /usr/include/EGL/egl.h /usr/include/EGL/eglplatform.h \
  /usr/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/EGL/eglext.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_opengl.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_opengl_glext.h
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_opengl.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_opengl_glext.h

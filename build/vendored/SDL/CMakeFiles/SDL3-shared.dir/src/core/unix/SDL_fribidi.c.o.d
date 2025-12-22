@@ -1,15 +1,15 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/unix/SDL_fribidi.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/unix/SDL_fribidi.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/core/unix/SDL_fribidi.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/fribidi/fribidi.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/core/unix/SDL_fribidi.h \
+ /usr/include/sys/types.h /usr/include/fribidi/fribidi.h \
  /usr/include/fribidi/fribidi-common.h \
  /usr/include/fribidi/fribidi-config.h \
  /usr/include/fribidi/fribidi-unicode.h \
  /usr/include/fribidi/fribidi-types.h \
  /usr/include/fribidi/fribidi-begindecls.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/fribidi/fribidi-enddecls.h \
  /usr/include/fribidi/fribidi-unicode-version.h \
  /usr/include/fribidi/fribidi-flags.h \

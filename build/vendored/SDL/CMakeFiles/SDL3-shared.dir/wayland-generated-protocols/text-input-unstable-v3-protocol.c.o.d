@@ -1,8 +1,10 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c \
- /usr/include/stdc-predef.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/wayland-util.h /usr/include/math.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
  /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h

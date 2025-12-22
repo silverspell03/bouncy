@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dialog/unix/SDL_unixdialog.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/dialog/unix/SDL_unixdialog.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dialog/unix/../SDL_dialog.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dialog/unix/./SDL_portaldialog.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dialog/unix/./SDL_zenitydialog.h
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dialog/unix/../SDL_dialog.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dialog/unix/./SDL_portaldialog.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dialog/unix/./SDL_zenitydialog.h

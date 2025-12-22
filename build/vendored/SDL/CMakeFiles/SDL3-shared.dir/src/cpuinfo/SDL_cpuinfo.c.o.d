@@ -1,20 +1,14 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
  /usr/include/unistd.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /usr/include/x86_64-linux-gnu/sys/auxv.h /usr/include/elf.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/hwcap.h
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/types.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/sys/auxv.h \
+ /usr/include/elf.h /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/hwcap.h

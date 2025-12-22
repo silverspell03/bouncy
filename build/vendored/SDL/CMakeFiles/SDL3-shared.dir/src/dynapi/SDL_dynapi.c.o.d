@@ -1,133 +1,111 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/SDL_dynapi.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/SDL_dynapi.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform_defines.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/SDL_dynapi.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h \
- /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/SDL_dynapi.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h \
+ /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_begin_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_assert.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_asyncio.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_atomic.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_audio.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_endian.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_error.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_mutex.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_thread.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_properties.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_iostream.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_bits.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_blendmode.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_camera.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_pixels.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_surface.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_rect.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_clipboard.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_dialog.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_dlopennote.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_events.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_gamepad.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_guid.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_joystick.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_power.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_sensor.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_keyboard.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_keycode.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_scancode.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_mouse.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_pen.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_touch.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_filesystem.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_gpu.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_haptic.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_hidapi.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_hints.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_init.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_loadso.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_locale.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_log.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_messagebox.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_metal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_misc.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_process.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_render.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_storage.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_system.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_time.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_timer.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_tray.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_version.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_oldnames.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_main.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/../core/SDL_core_unsupported.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/../video/SDL_video_unsupported.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_vulkan.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/dynapi/SDL_dynapi_procs.h \
- /usr/include/dlfcn.h /usr/include/x86_64-linux-gnu/bits/dlfcn.h
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /usr/include/string.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
+ /usr/include/wchar.h /usr/include/bits/wchar.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_assert.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_asyncio.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_atomic.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_audio.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_endian.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_mutex.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_thread.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_properties.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_iostream.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_bits.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_blendmode.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_camera.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_pixels.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_surface.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_rect.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_clipboard.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_dialog.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_dlopennote.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_events.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_gamepad.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_guid.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_joystick.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_power.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_sensor.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_keyboard.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_keycode.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_scancode.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_mouse.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_pen.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_touch.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_filesystem.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_gpu.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_haptic.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_hidapi.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_hints.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_init.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_loadso.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_locale.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_log.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_messagebox.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_metal.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_misc.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_process.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_render.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_storage.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_system.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_time.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_timer.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_tray.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_version.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_oldnames.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_main.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/../core/SDL_core_unsupported.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/../video/SDL_video_unsupported.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/dynapi/SDL_dynapi_procs.h \
+ /usr/include/dlfcn.h /usr/include/bits/dlfcn.h

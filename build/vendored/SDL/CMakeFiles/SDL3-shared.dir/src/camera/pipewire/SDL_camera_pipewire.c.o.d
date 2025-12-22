@@ -1,25 +1,25 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/pipewire/SDL_camera_pipewire.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/SDL_camera_pipewire.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/SDL_camera_pipewire.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/../SDL_syscamera.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/../../SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/../../video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/../../video/SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/camera/pipewire/../../core/linux/SDL_dbus.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/../SDL_syscamera.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/../../SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/../../video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/../../video/SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/camera/pipewire/../../core/linux/SDL_dbus.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
- /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h \
+ /usr/lib64/dbus-1.0/include/dbus/dbus-arch-deps.h \
  /usr/include/dbus-1.0/dbus/dbus-macros.h \
  /usr/include/dbus-1.0/dbus/dbus-address.h \
  /usr/include/dbus-1.0/dbus/dbus-types.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
  /usr/include/dbus-1.0/dbus/dbus-errors.h \
  /usr/include/dbus-1.0/dbus/dbus-protocol.h \
  /usr/include/dbus-1.0/dbus/dbus-bus.h \
  /usr/include/dbus-1.0/dbus/dbus-connection.h \
  /usr/include/dbus-1.0/dbus/dbus-memory.h \
  /usr/include/dbus-1.0/dbus/dbus-message.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
  /usr/include/dbus-1.0/dbus/dbus-shared.h \
  /usr/include/dbus-1.0/dbus/dbus-misc.h \
  /usr/include/dbus-1.0/dbus/dbus-pending-call.h \
@@ -28,53 +28,40 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/pipewire/SDL_camera_pipewire.
  /usr/include/dbus-1.0/dbus/dbus-syntax.h \
  /usr/include/dbus-1.0/dbus/dbus-threads.h \
  /usr/include/spa-0.2/spa/utils/type.h \
- /usr/include/spa-0.2/spa/utils/defs.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/include/inttypes.h /usr/include/signal.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
- /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
- /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/signal_ext.h /usr/include/stdlib.h \
- /usr/include/string.h /usr/include/stdio.h \
+ /usr/include/spa-0.2/spa/utils/defs.h /usr/include/inttypes.h \
+ /usr/include/signal.h /usr/include/features.h /usr/include/bits/types.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/types/__sigval_t.h /usr/include/bits/siginfo-arch.h \
+ /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/types/__sigset_t.h /usr/include/bits/signal_ext.h \
+ /usr/include/stdlib.h /usr/include/string.h /usr/include/stdio.h \
+ /usr/include/spa-0.2/spa/utils/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/bits/types/locale_t.h \
  /usr/include/spa-0.2/spa/pod/builder.h \
  /usr/include/spa-0.2/spa/utils/hook.h \
  /usr/include/spa-0.2/spa/utils/list.h \
- /usr/include/spa-0.2/spa/pod/iter.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/spa-0.2/spa/pod/iter.h /usr/include/sys/types.h \
  /usr/include/spa-0.2/spa/pod/pod.h /usr/include/spa-0.2/spa/pod/vararg.h \
  /usr/include/spa-0.2/spa/param/video/raw.h \
  /usr/include/spa-0.2/spa/param/format.h \
@@ -93,37 +80,35 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/pipewire/SDL_camera_pipewire.
  /usr/include/spa-0.2/spa/param/video/mjpg.h \
  /usr/include/spa-0.2/spa/utils/result.h \
  /usr/include/spa-0.2/spa/utils/json.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/math.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /usr/include/spa-0.2/spa/utils/string.h /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h /usr/include/math.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/float.h \
+ /usr/include/spa-0.2/spa/utils/json-core.h \
  /usr/include/pipewire-0.3/pipewire/pipewire.h \
  /usr/include/spa-0.2/spa/support/plugin.h \
  /usr/include/spa-0.2/spa/utils/dict.h \
  /usr/include/pipewire-0.3/pipewire/array.h \
  /usr/include/pipewire-0.3/pipewire/client.h \
+ /usr/include/pipewire-0.3/pipewire/type.h \
  /usr/include/pipewire-0.3/pipewire/proxy.h \
  /usr/include/pipewire-0.3/pipewire/protocol.h \
  /usr/include/pipewire-0.3/pipewire/context.h \
  /usr/include/pipewire-0.3/pipewire/core.h \
  /usr/include/pipewire-0.3/pipewire/properties.h \
- /usr/include/pipewire-0.3/pipewire/loop.h \
+ /usr/include/spa-0.2/spa/utils/cleanup.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/dirent_ext.h /usr/include/pipewire-0.3/pipewire/loop.h \
  /usr/include/spa-0.2/spa/support/loop.h \
  /usr/include/spa-0.2/spa/support/system.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/pipewire-0.3/pipewire/utils.h \
- /usr/include/x86_64-linux-gnu/sys/un.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_tm.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/pipewire-0.3/pipewire/utils.h /usr/include/sys/un.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/sockaddr.h \
  /usr/include/pipewire-0.3/pipewire/permission.h \
  /usr/include/pipewire-0.3/pipewire/conf.h \
  /usr/include/pipewire-0.3/pipewire/device.h \
@@ -152,6 +137,5 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/pipewire/SDL_camera_pipewire.
  /usr/include/pipewire-0.3/pipewire/thread-loop.h \
  /usr/include/pipewire-0.3/pipewire/data-loop.h \
  /usr/include/spa-0.2/spa/support/thread.h \
- /usr/include/pipewire-0.3/pipewire/type.h \
  /usr/include/pipewire-0.3/pipewire/version.h \
  /usr/include/pipewire-0.3/pipewire/extensions/metadata.h

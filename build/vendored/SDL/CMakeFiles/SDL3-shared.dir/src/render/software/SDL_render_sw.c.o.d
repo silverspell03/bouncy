@@ -1,19 +1,19 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_render_sw.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_render_sw.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../SDL_sysrender.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../../video/SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../SDL_yuv_sw_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_render_sw_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_draw.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_blendfillrect.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_blendline.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_blendpoint.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_drawline.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_drawpoint.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/SDL_triangle.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../../video/SDL_pixels_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/software/../../video/SDL_rotate.h
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../SDL_sysrender.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../../video/SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../SDL_yuv_sw_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_render_sw_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_draw.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_blendfillrect.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_blendline.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_blendpoint.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_drawline.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_drawpoint.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/SDL_triangle.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../../video/SDL_pixels_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/software/../../video/SDL_rotate.h

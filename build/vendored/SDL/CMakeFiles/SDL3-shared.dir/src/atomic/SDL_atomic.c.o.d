@@ -1,4 +1,4 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/atomic/SDL_atomic.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/atomic/SDL_atomic.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h

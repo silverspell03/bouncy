@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/bouncy.dir/bouncy.c.o -o bouncy  -Wl,-rpath,/home/jospeh/projets/sdl3-c/build libSDL3.so.0.3.7 -lm 
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/bouncy.dir/link.d CMakeFiles/bouncy.dir/bouncy.c.o -o bouncy  -Wl,-rpath,/home/connard/projets/bouncy/build libSDL3.so.0.3.7 -lm

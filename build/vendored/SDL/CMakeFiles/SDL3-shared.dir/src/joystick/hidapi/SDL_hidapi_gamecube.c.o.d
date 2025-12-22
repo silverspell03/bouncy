@@ -1,43 +1,34 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../../SDL_hints_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../../SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../../misc/SDL_libusb.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../../SDL_hints_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../../SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../../misc/SDL_libusb.h \
  /usr/include/libusb-1.0/libusb.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/local_lim.h \
  /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/time.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../SDL_sysjoystick.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../SDL_joystick_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../usb_ids.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/joystick/hidapi/../../hidapi/SDL_hidapi_c.h
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
+ /usr/include/sys/types.h /usr/include/sys/time.h \
+ /usr/include/bits/types.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_timeval.h /usr/include/sys/select.h \
+ /usr/include/time.h /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/types/locale_t.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../SDL_sysjoystick.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../SDL_joystick_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../usb_ids.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/joystick/hidapi/../../hidapi/SDL_hidapi_c.h

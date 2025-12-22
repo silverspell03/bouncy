@@ -1,10 +1,10 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_opengles2.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_opengles2.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
  /usr/include/GLES2/gl2platform.h /usr/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/GLES2/gl2.h /usr/include/GLES2/gl2ext.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h
+ /home/connard/projets/bouncy/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h

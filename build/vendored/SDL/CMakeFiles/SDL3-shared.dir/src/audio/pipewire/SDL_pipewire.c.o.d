@@ -1,93 +1,81 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/pipewire/SDL_pipewire.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/pipewire/SDL_pipewire.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/pipewire/SDL_pipewire.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/pipewire/SDL_pipewire.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/audio/pipewire/../SDL_sysaudio.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/pipewire/SDL_pipewire.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/audio/pipewire/../SDL_sysaudio.h \
  /usr/include/pipewire-0.3/pipewire/pipewire.h \
- /usr/include/spa-0.2/spa/support/plugin.h \
- /usr/include/spa-0.2/spa/utils/defs.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/include/inttypes.h /usr/include/signal.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
- /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
- /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/signal_ext.h /usr/include/stdlib.h \
- /usr/include/string.h /usr/include/stdio.h \
- /usr/include/spa-0.2/spa/utils/dict.h \
- /usr/include/pipewire-0.3/pipewire/array.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/spa-0.2/spa/support/plugin.h /usr/include/errno.h \
+ /usr/include/features.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/bits/types/error_t.h /usr/include/spa-0.2/spa/utils/defs.h \
+ /usr/include/inttypes.h /usr/include/signal.h /usr/include/bits/types.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/types/__sigval_t.h /usr/include/bits/siginfo-arch.h \
+ /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/include/bits/types/stack_t.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigstack.h /usr/include/bits/sigstksz.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
+ /usr/include/bits/ss_flags.h /usr/include/bits/types/struct_sigstack.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/types/__sigset_t.h /usr/include/bits/signal_ext.h \
+ /usr/include/stdlib.h /usr/include/string.h /usr/include/stdio.h \
+ /usr/include/spa-0.2/spa/utils/hook.h \
+ /usr/include/spa-0.2/spa/utils/list.h \
+ /usr/include/spa-0.2/spa/utils/dict.h \
+ /usr/include/pipewire-0.3/pipewire/array.h \
  /usr/include/pipewire-0.3/pipewire/client.h \
  /usr/include/spa-0.2/spa/param/param.h \
  /usr/include/spa-0.2/spa/param/buffers.h \
  /usr/include/spa-0.2/spa/param/profile.h \
  /usr/include/spa-0.2/spa/param/port-config.h \
  /usr/include/spa-0.2/spa/param/route.h \
+ /usr/include/pipewire-0.3/pipewire/type.h \
+ /usr/include/spa-0.2/spa/utils/type.h \
+ /usr/include/spa-0.2/spa/utils/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/bits/types/locale_t.h \
  /usr/include/pipewire-0.3/pipewire/proxy.h \
- /usr/include/spa-0.2/spa/utils/hook.h \
- /usr/include/spa-0.2/spa/utils/list.h \
  /usr/include/pipewire-0.3/pipewire/protocol.h \
  /usr/include/pipewire-0.3/pipewire/context.h \
  /usr/include/pipewire-0.3/pipewire/core.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/pipewire-0.3/pipewire/properties.h \
- /usr/include/spa-0.2/spa/utils/string.h /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/pipewire-0.3/pipewire/loop.h \
+ /usr/include/spa-0.2/spa/utils/cleanup.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/dirent_ext.h /usr/include/pipewire-0.3/pipewire/loop.h \
  /usr/include/spa-0.2/spa/support/loop.h \
  /usr/include/spa-0.2/spa/support/system.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/pipewire-0.3/pipewire/utils.h \
- /usr/include/x86_64-linux-gnu/sys/un.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
- /usr/include/spa-0.2/spa/pod/pod.h /usr/include/spa-0.2/spa/utils/type.h \
+ /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_tm.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/sys/types.h \
+ /usr/include/pipewire-0.3/pipewire/utils.h /usr/include/sys/un.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/sockaddr.h \
+ /usr/include/spa-0.2/spa/pod/pod.h \
  /usr/include/pipewire-0.3/pipewire/permission.h \
  /usr/include/pipewire-0.3/pipewire/conf.h \
+ /usr/include/spa-0.2/spa/utils/json-core.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h /usr/include/math.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/float.h \
  /usr/include/pipewire-0.3/pipewire/device.h \
  /usr/include/pipewire-0.3/pipewire/buffers.h \
  /usr/include/spa-0.2/spa/node/node.h \
@@ -114,7 +102,6 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/pipewire/SDL_pipewire.c.o: \
  /usr/include/pipewire-0.3/pipewire/thread-loop.h \
  /usr/include/pipewire-0.3/pipewire/data-loop.h \
  /usr/include/spa-0.2/spa/support/thread.h \
- /usr/include/pipewire-0.3/pipewire/type.h \
  /usr/include/pipewire-0.3/pipewire/version.h \
  /usr/include/pipewire-0.3/pipewire/extensions/metadata.h \
  /usr/include/spa-0.2/spa/param/audio/format-utils.h \
@@ -125,7 +112,8 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/pipewire/SDL_pipewire.c.o: \
  /usr/include/spa-0.2/spa/param/audio/format.h \
  /usr/include/spa-0.2/spa/param/format.h \
  /usr/include/spa-0.2/spa/param/audio/raw.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/endian.h \
+ /usr/include/spa-0.2/spa/utils/endian.h /usr/include/endian.h \
+ /usr/include/byteswap.h /usr/include/bits/byteswap.h \
  /usr/include/spa-0.2/spa/param/audio/dsp.h \
  /usr/include/spa-0.2/spa/param/audio/iec958.h \
  /usr/include/spa-0.2/spa/param/audio/dsd.h \
@@ -153,5 +141,4 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/pipewire/SDL_pipewire.c.o: \
  /usr/include/spa-0.2/spa/param/audio/alac-utils.h \
  /usr/include/spa-0.2/spa/param/audio/flac-utils.h \
  /usr/include/spa-0.2/spa/param/audio/ape-utils.h \
- /usr/include/spa-0.2/spa/utils/json.h /usr/include/math.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h
+ /usr/include/spa-0.2/spa/utils/json.h

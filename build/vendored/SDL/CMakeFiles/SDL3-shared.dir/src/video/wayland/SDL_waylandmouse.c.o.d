@@ -1,35 +1,34 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandmouse.c \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandmouse.c \
  /usr/include/stdc-predef.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/SDL_internal.h \
- /usr/include/errno.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/SDL_internal.h \
+ /usr/include/errno.h /usr/include/features.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../SDL_sysvideo.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_vulkan.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_error.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_video.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_begin_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../SDL_surface_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../SDL_blit.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../SDL_video_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../core/unix/SDL_poll.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/SDL_mouse_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandvideo.h \
+ /usr/include/bits/types/error_t.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../SDL_sysvideo.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../SDL_surface_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../SDL_blit.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../SDL_video_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../core/unix/SDL_poll.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/SDL_mouse_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandvideo.h \
  /usr/include/EGL/egl.h /usr/include/EGL/eglplatform.h \
  /usr/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/wayland-util.h /usr/include/math.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
  /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../core/linux/SDL_dbus.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../core/linux/SDL_dbus.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
- /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h \
+ /usr/lib64/dbus-1.0/include/dbus/dbus-arch-deps.h \
  /usr/include/dbus-1.0/dbus/dbus-macros.h \
  /usr/include/dbus-1.0/dbus/dbus-address.h \
  /usr/include/dbus-1.0/dbus/dbus-types.h \
@@ -46,36 +45,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: 
  /usr/include/dbus-1.0/dbus/dbus-signature.h \
  /usr/include/dbus-1.0/dbus/dbus-syntax.h \
  /usr/include/dbus-1.0/dbus/dbus-threads.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../core/linux/SDL_ime.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylanddyn.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../core/linux/SDL_ime.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylanddyn.h \
  /usr/include/wayland-cursor.h /usr/include/xkbcommon/xkbcommon.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h \
  /usr/include/stdio.h /usr/include/xkbcommon/xkbcommon-names.h \
  /usr/include/xkbcommon/xkbcommon-keysyms.h \
  /usr/include/xkbcommon/xkbcommon-compat.h \
  /usr/include/xkbcommon/xkbcommon-compose.h \
  /usr/include/wayland-client-core.h /usr/include/wayland-util.h \
  /usr/include/wayland-version.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandsym.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/wayland-client-protocol.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandsym.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/wayland-client-protocol.h \
  /usr/include/wayland-client.h /usr/include/wayland-client-core.h \
  /usr/include/wayland-client-protocol.h /usr/include/wayland-egl.h \
  /usr/include/wayland-egl-core.h /usr/include/libdecor-0/libdecor.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../SDL_pixels_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandevents_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/SDL_keymap_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/SDL_pen_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/../SDL_internal.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/SDL_mouse_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandwindow.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../events/SDL_touch_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandshmbuffer.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylanddatamanager.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/SDL_waylandmouse.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/viewporter-client-protocol.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h \
- /home/jospeh/projets/sdl3-c/build/vendored/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../SDL_hints_c.h \
- /home/jospeh/projets/sdl3-c/vendored/SDL/src/video/wayland/../../SDL_internal.h
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../SDL_pixels_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandevents_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/SDL_keymap_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/SDL_pen_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/../SDL_internal.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/SDL_mouse_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandwindow.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../events/SDL_touch_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandshmbuffer.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylanddatamanager.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/SDL_waylandmouse.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/viewporter-client-protocol.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h \
+ /home/connard/projets/bouncy/build/vendored/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../SDL_hints_c.h \
+ /home/connard/projets/bouncy/vendored/SDL/src/video/wayland/../../SDL_internal.h
