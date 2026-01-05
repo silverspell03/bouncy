@@ -1,19 +1,20 @@
+#define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
+#include <SDL3/SDL.h>
 #include <SDL3/SDL_audio.h>
 #include <SDL3/SDL_error.h>
 #include <SDL3/SDL_init.h>
 #include <SDL3/SDL_iostream.h>
+#include <SDL3/SDL_main.h>
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_stdinc.h>
 #include <SDL3/SDL_video.h>
-#include <stddef.h>
-#include <time.h>
-#define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_main.h>
 #include <math.h>
+#include <pthread_time.h>
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <time.h>
 
 #define ACCEL 5000
 #define WIDTH 900
@@ -27,7 +28,7 @@ typedef struct {
 } Balle;
 
 typedef struct {
-  Balle *balles; 
+  Balle *balles;
   int n; // Nombre balles
   SDL_Window *win;
   SDL_Renderer *ren;
@@ -56,55 +57,49 @@ void DrawBall(SDL_Renderer *ren, Balle balle) {
   }
 }
 
-void BoomSound(App *app)
-{
+void BoomSound(App *app) {
   Uint32 len;
   Uint8 *buf;
   SDL_AudioSpec spec;
   SDL_ClearAudioStream(app->stream);
-  if (!SDL_LoadWAV("assets/snore.wav", &spec, &buf, &len))
-  {
+  if (!SDL_LoadWAV("./assets/snore.wav", &spec, &buf, &len)) {
     printf("Cannot load wav file.\n%s\n", SDL_GetError());
   }
   SDL_PutAudioStreamData(app->stream, buf, len);
 }
 
-void UpdateBalls(void *app)
-{
+void UpdateBalls(void *app) {
 
   App *ctx = (App *)app;
   Balle *balles = ctx->balles;
   struct timespec now;
   clock_gettime(CLOCK_MONOTONIC, &now);
-  double dt = (now.tv_sec + now.tv_nsec / 1000000000.0f) - (ctx->last.tv_sec + ctx->last.tv_nsec / 1000000000.0f);
+  double dt = (now.tv_sec + now.tv_nsec / 1000000000.0f) -
+              (ctx->last.tv_sec + ctx->last.tv_nsec / 1000000000.0f);
   ctx->last = now;
 
-  for (int i = 0; i < ctx->n; i++) 
-  {
+  for (int i = 0; i < ctx->n; i++) {
     float k;
     if (balles[i].yv > 0)
       k = -K_F;
-    else 
+    else
       k = K_F;
     float a = ACCEL + k;
     balles[i].xv += 0;
     balles[i].yv += a * dt;
     balles[i].x += balles[i].xv * dt;
     balles[i].y += balles[i].yv * dt;
-    if (balles[i].y >= HEIGTH - (balles[i].r))
-    {
+    if (balles[i].y >= HEIGTH - (balles[i].r)) {
       balles[i].y = HEIGTH - (balles[i].r);
       balles[i].yv = -balles[i].yv;
       BoomSound(ctx);
     }
-    if (balles[i].x >= WIDTH - (balles[i].r))
-    {
+    if (balles[i].x >= WIDTH - (balles[i].r)) {
       balles[i].x = WIDTH - (balles[i].r);
       balles[i].xv = -balles[i].xv;
       BoomSound(ctx);
     }
-    if (balles[i].x - balles[i].r <= 0)
-    {
+    if (balles[i].x - balles[i].r <= 0) {
       balles[i].x = balles[i].r;
       balles[i].xv = -balles[i].xv;
       BoomSound(ctx);
@@ -133,7 +128,8 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   SDL_SetRenderVSync(app->ren, 1);
 
   SDL_AudioSpec spec = {SDL_AUDIO_F32, 1, 48000};
-  SDL_AudioStream *stream = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
+  SDL_AudioStream *stream = SDL_OpenAudioDeviceStream(
+      SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
   SDL_ResumeAudioStreamDevice(stream);
   app->stream = stream;
 
@@ -143,12 +139,12 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   Balle balle1 = {WIDTH / 4.0, 50, 60, 1200, 0};
   app->balles[0] = balle0;
   app->balles[1] = balle1;
-  
+
   SDL_SetRenderDrawColor(app->ren, 0, 0, 0, SDL_ALPHA_OPAQUE);
   clock_gettime(CLOCK_MONOTONIC, &app->last);
 
   *appstate = app;
-  
+
   return SDL_APP_CONTINUE; /* carry on with the program! */
 }
 
