@@ -9,7 +9,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
 # This assumes the SDL source is available in vendored/SDL
-add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
+# add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
+find_package(SDL3 REQUIRED)
 
 # Create your game executable target as usual
 add_executable(bouncy WIN32 bouncy.c)

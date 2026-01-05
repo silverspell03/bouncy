@@ -1,36 +1,46 @@
+#include <SDL3/SDL_audio.h>
+#include <SDL3/SDL_error.h>
+#include <SDL3/SDL_init.h>
+#include <SDL3/SDL_iostream.h>
+#include <SDL3/SDL_render.h>
+#include <SDL3/SDL_stdinc.h>
+#include <SDL3/SDL_video.h>
+#include <stddef.h>
+#include <time.h>
 #define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <sys/time.h>
 
-#define G_CONST 90.81
+#define ACCEL 5000
+#define WIDTH 900
+#define HEIGTH 600
+#define K_F 0
 
 typedef struct {
-  float x;
-  float y;
-  float r;
-  float xv;
-  float yv;
+  double x, y;
+  double r;
+  double xv, yv;
 } Balle;
 
 typedef struct {
-  Balle balles[50]; 
-  int n_balles;
-} BounceApp;
-
-/* We will use this renderer to draw into this window every frame. */
-static SDL_Window *window = NULL;
-static SDL_Renderer *renderer = NULL;
-struct timeval t_start;
-struct timeval t_end;
-struct timeval td;
-BounceApp app;
+  Balle *balles; 
+  int n; // Nombre balles
+  SDL_Window *win;
+  SDL_Renderer *ren;
+  struct timespec last;
+  size_t td;
+  SDL_AudioStream *stream;
+  Uint8 *audio_buf;
+  Uint32 *audio_len;
+} App;
 
 /* Cette fonction dessine une balle  */
-void DrawBall(Balle balle) {
-  SDL_SetRenderDrawColor(renderer, 100, 100, 100, SDL_ALPHA_OPAQUE);
+void DrawBall(SDL_Renderer *ren, Balle balle) {
+  SDL_SetRenderDrawColor(ren, 100, 100, 100, SDL_ALPHA_OPAQUE);
 
   int x_start = balle.x - balle.r;
   int y_start = balle.y - balle.r;
@@ -41,69 +51,103 @@ void DrawBall(Balle balle) {
   for (int x = x_start; x <= x_stop; x++) {
     for (int y = y_start; y <= y_stop; y++) {
       if (pow(x - balle.x, 2) + pow(y - balle.y, 2) <= pow(balle.r, 2))
-        SDL_RenderPoint(renderer, (float)x, (float)y);
+        SDL_RenderPoint(ren, (float)x, (float)y);
     }
   }
 }
 
-void InitBalls(Balle balles[], int n)
+void BoomSound(App *app)
 {
-  for (int i = 0; i <= n; i++) 
+  Uint32 len;
+  Uint8 *buf;
+  SDL_AudioSpec spec;
+  SDL_ClearAudioStream(app->stream);
+  if (!SDL_LoadWAV("assets/snore.wav", &spec, &buf, &len))
   {
-    DrawBall(balles[i]);
+    printf("Cannot load wav file.\n%s\n", SDL_GetError());
   }
+  SDL_PutAudioStreamData(app->stream, buf, len);
 }
 
-void UpdateBalls(Balle balles[], int n)
+void UpdateBalls(void *app)
 {
-  timersub(&t_start, &t_end, &td);
-  double t_eval = (double)td.tv_sec + (double)td.tv_usec / 1000000;
 
-  for (int i = 0; i <= n; i++) 
+  App *ctx = (App *)app;
+  Balle *balles = ctx->balles;
+  struct timespec now;
+  clock_gettime(CLOCK_MONOTONIC, &now);
+  double dt = (now.tv_sec + now.tv_nsec / 1000000000.0f) - (ctx->last.tv_sec + ctx->last.tv_nsec / 1000000000.0f);
+  ctx->last = now;
+
+  for (int i = 0; i < ctx->n; i++) 
   {
-    float x_start = balles[i].x;
-    float y_start = balles[i].y;
+    float k;
+    if (balles[i].yv > 0)
+      k = -K_F;
+    else 
+      k = K_F;
+    float a = ACCEL + k;
+    balles[i].xv += 0;
+    balles[i].yv += a * dt;
+    balles[i].x += balles[i].xv * dt;
+    balles[i].y += balles[i].yv * dt;
+    if (balles[i].y >= HEIGTH - (balles[i].r))
+    {
+      balles[i].y = HEIGTH - (balles[i].r);
+      balles[i].yv = -balles[i].yv;
+      BoomSound(ctx);
+    }
+    if (balles[i].x >= WIDTH - (balles[i].r))
+    {
+      balles[i].x = WIDTH - (balles[i].r);
+      balles[i].xv = -balles[i].xv;
+      BoomSound(ctx);
+    }
+    if (balles[i].x - balles[i].r <= 0)
+    {
+      balles[i].x = balles[i].r;
+      balles[i].xv = -balles[i].xv;
+      BoomSound(ctx);
+    }
 
-    balles[i].x = x_start + balles[i].xv * t_eval;
-    balles[i].y = y_start + balles[i].yv * t_eval + 1/2 * G_CONST * pow(t_eval, 2);
-
-    balles[i].xv = (balles[i].x - x_start) / t_eval;
-    balles[i].yv = (balles[i].y - y_start) / t_eval;
-
-    printf("Ball rendue a x: %f, y; %f\n", balles[i].x, balles[i].y, balles[i].xv, balles[i].yv);
-
-    DrawBall(balles[i]);
-    printf("%f\n", t_eval);
+    DrawBall(ctx->ren, balles[i]);
   }
 }
 
 /* This function runs once at startup. */
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
+  srand(time(NULL));
+  App *app = malloc(sizeof(*app));
   SDL_SetAppMetadata("Bouncy Balls", "1.0", "org.jospeh.bouncy-balls");
 
-  if (!SDL_Init(SDL_INIT_VIDEO)) {
+  if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO)) {
     SDL_Log("Couldn't initialize SDL: %s", SDL_GetError());
     return SDL_APP_FAILURE;
   }
 
-  if (!SDL_CreateWindowAndRenderer("BouncyBall", 900, 600, 0, &window,
-                                   &renderer)) {
+  if (!SDL_CreateWindowAndRenderer("BouncyBall", 900, 600, 0, &app->win,
+                                   &app->ren)) {
     SDL_Log("Couldn't create window/renderer: %s", SDL_GetError());
     return SDL_APP_FAILURE;
   }
-  SDL_SetRenderVSync(renderer, 1);
+  SDL_SetRenderVSync(app->ren, 1);
 
-  *appstate = &app;
+  SDL_AudioSpec spec = {SDL_AUDIO_F32, 1, 48000};
+  SDL_AudioStream *stream = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
+  SDL_ResumeAudioStreamDevice(stream);
+  app->stream = stream;
 
-
-  app.balles[0] = (Balle){300, 300, 100, 0, 0};
-  app.n_balles = 1;
+  app->n = 2;
+  app->balles = malloc(sizeof(*app->balles) * app->n);
+  Balle balle0 = {WIDTH / 2.0, 50, 100, 800, 100};
+  Balle balle1 = {WIDTH / 4.0, 50, 60, 1200, 0};
+  app->balles[0] = balle0;
+  app->balles[1] = balle1;
   
-  InitBalls(app.balles, app.n_balles);
-  gettimeofday(&t_start, NULL);
-  gettimeofday(&t_end, NULL);
+  SDL_SetRenderDrawColor(app->ren, 0, 0, 0, SDL_ALPHA_OPAQUE);
+  clock_gettime(CLOCK_MONOTONIC, &app->last);
 
-  SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
+  *appstate = app;
   
   return SDL_APP_CONTINUE; /* carry on with the program! */
 }
@@ -119,14 +163,14 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event) {
 
 /* This function runs once per frame, and is the heart of the program. */
 SDL_AppResult SDL_AppIterate(void *appstate) {
-  SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
-  SDL_RenderClear(renderer);
+  App *app = appstate;
+  SDL_SetRenderDrawColor(app->ren, 0, 0, 0, SDL_ALPHA_OPAQUE);
+  SDL_RenderClear(app->ren);
 
-  gettimeofday(&t_start, NULL);
-  UpdateBalls(app.balles, app.n_balles);
-  gettimeofday(&t_end, NULL);
+  UpdateBalls(app);
+  clock_gettime(CLOCK_MONOTONIC, &app->last);
 
-  SDL_RenderPresent(renderer);
+  SDL_RenderPresent(app->ren);
   return SDL_APP_CONTINUE; /* carry on with the program! */
 }
 
