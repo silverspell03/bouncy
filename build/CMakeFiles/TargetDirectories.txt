@@ -1,8 +1,0 @@
-/home/connard/projets/bouncy/build/CMakeFiles/bouncy.dir
-/home/connard/projets/bouncy/build/CMakeFiles/edit_cache.dir
-/home/connard/projets/bouncy/build/CMakeFiles/rebuild_cache.dir
-/home/connard/projets/bouncy/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/connard/projets/bouncy/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/connard/projets/bouncy/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/connard/projets/bouncy/build/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/connard/projets/bouncy/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
