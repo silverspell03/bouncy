@@ -1,4 +1,3 @@
-#include <algorithm>
 #define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
 #include <SDL3/SDL_audio.h>
 #include <SDL3/SDL_error.h>
@@ -19,6 +18,9 @@
 #define WIDTH 900
 #define HEIGTH 600
 #define K_F 0
+#define CHANNELS 1
+#define SAMPLE_RATE 48000
+#define AUDIO_FORMAT SDL_AUDIO_F32
 
 
 typedef struct {
@@ -61,15 +63,38 @@ void DrawBall(SDL_Renderer *ren, Balle balle) {
 
 void BoomSound(App *app)
 {
-  Uint32 len;
-  Uint8 *buf;
-  SDL_AudioSpec spec;
+  if (!app) return;
+  if (!app->stream)
+  {
+    printf("Pas pu trouver stream de l'app\n%s", SDL_GetError());
+    return;
+  }
   SDL_ClearAudioStream(app->stream);
-  if (!SDL_LoadWAV("assets/snore.wav", &spec, &buf, &len))
+
+  Uint8 *wav_buf = NULL;
+  Uint32 wav_len = 0;
+  SDL_AudioSpec wav_spec;
+  
+  const SDL_AudioSpec target = {AUDIO_FORMAT, CHANNELS, SAMPLE_RATE};
+
+  if (!SDL_LoadWAV("assets/snore.wav", &wav_spec, &wav_buf, &wav_len))
   {
     printf("Cannot load wav file.\n%s\n", SDL_GetError());
   }
-  SDL_PutAudioStreamData(app->stream, buf, len);
+
+  const SDL_AudioSpec src_spec = wav_spec;
+  const Uint8 *src_buf = wav_buf;
+  const Uint32 src_len = wav_len;
+
+  Uint8 *con_buf = NULL;
+  int con_len = 0;
+
+  if (!SDL_ConvertAudioSamples(&src_spec, src_buf, src_len, &target, &con_buf, &con_len))
+  {
+    printf("Erreur conversion\n%s", SDL_GetError());
+    return;
+  }
+  SDL_PutAudioStreamData(app->stream, wav_buf, wav_len);
 }
 
 void UpdateBallsPhysics(App *app, double dt)
@@ -130,7 +155,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   }
   SDL_SetRenderVSync(app->ren, 1);
 
-  SDL_AudioSpec spec = {SDL_AUDIO_F32, 1, 48000};
+  SDL_AudioSpec spec = {AUDIO_FORMAT, CHANNELS, SAMPLE_RATE};
   SDL_AudioStream *stream = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
   SDL_ResumeAudioStreamDevice(stream);
   app->stream = stream;
