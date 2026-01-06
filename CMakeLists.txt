@@ -5,10 +5,10 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project(bouncy)
 
-find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3)
+find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3-static)
 
 # Create your game executable target as usual
 add_executable(bouncy WIN32 bouncy.cpp)
 
-target_link_libraries(bouncy SDL3::SDL3 m)
+target_link_libraries(bouncy SDL3::SDL3-static m "-static")
   
