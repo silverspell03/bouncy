@@ -162,6 +162,11 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   SDL_AudioSpec spec = {AUDIO_FORMAT, CHANNELS, SAMPLE_RATE};
   SDL_AudioStream *stream = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
   SDL_ResumeAudioStreamDevice(stream);
+  if (stream == NULL) 
+  {
+    printf("%s\n",SDL_GetError());
+    return SDL_APP_FAILURE;
+  }
   app->stream = stream;
 
   app->n = 2;
