@@ -94,7 +94,11 @@ void BoomSound(App *app)
     printf("Erreur conversion\n%s", SDL_GetError());
     return;
   }
-  SDL_PutAudioStreamData(app->stream, wav_buf, wav_len);
+  if (!SDL_PutAudioStreamData(app->stream, wav_buf, wav_len))
+  {
+    printf("Error putting data on stream\n%s", SDL_GetError());
+    return;
+  }
 }
 
 void UpdateBallsPhysics(App *app, double dt)
