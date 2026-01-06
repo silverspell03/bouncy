@@ -1,3 +1,4 @@
+#include <cstdlib>
 #define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
 #include <SDL3/SDL_audio.h>
 #include <SDL3/SDL_error.h>
@@ -27,6 +28,8 @@ typedef struct {
   double x, y;
   double r;
   double xv, yv;
+  int in_contact_x;
+  int in_contact_y;
 } Balle;
 
 typedef struct {
@@ -119,6 +122,25 @@ void UpdateBallsPhysics(App *app, double dt)
     else 
       kx = -K_F;
 
+    int now_contact_x = 0;
+    int now_contact_y = 0;
+
+    if (balles[i].x >= WIDTH - (balles[i].r) - 1e-6)
+    {
+      now_contact_x = 1;
+    }
+    if (balles[i].y >= HEIGTH - (balles[i].r) - 1e-6)
+    {
+      now_contact_y = 1;
+    }
+
+    if (now_contact_x && !balles[i].in_contact_x) {
+      BoomSound(app);
+    }
+    if (now_contact_y && !balles[i].in_contact_y) {
+      BoomSound(app);
+    }
+
     float ay = ACCEL + ky;
     balles[i].xv += kx * dt;
     balles[i].yv += ay * dt;
@@ -128,19 +150,16 @@ void UpdateBallsPhysics(App *app, double dt)
     {
       balles[i].y = HEIGTH - (balles[i].r);
       balles[i].yv = -balles[i].yv;
-      BoomSound(ctx);
     }
     if (balles[i].x >= WIDTH - (balles[i].r))
     {
       balles[i].x = WIDTH - (balles[i].r);
       balles[i].xv = -balles[i].xv;
-      BoomSound(ctx);
     }
     if (balles[i].x - balles[i].r <= 0)
     {
       balles[i].x = balles[i].r;
       balles[i].xv = -balles[i].xv;
-      BoomSound(ctx);
     }
   }
 }
@@ -175,12 +194,23 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   }
   app->stream = stream;
 
-  app->n = 2;
+  app->n = rand() % 5 + 1;
   app->balles = (Balle*)malloc(sizeof(*app->balles) * app->n);
-  Balle balle0 = {WIDTH / 2.0, 50, 100, 800, 100};
-  Balle balle1 = {WIDTH / 4.0, 50, 60, 1200, 0};
-  app->balles[0] = balle0;
-  app->balles[1] = balle1;
+  for (int i = 0; i < app->n; ++i)
+  {
+    double x, y;
+    double xv, yv;
+    double r;
+
+    x = rand() % WIDTH + 1;
+    y = rand() % HEIGTH + 1;
+    xv = rand() % 1000 + 1;
+    yv = rand() % 1000 + 1;
+    r = rand() % 100 + 1;
+
+    Balle balle = {x, y, r, xv, yv};
+    app->balles[i] = balle;
+  }
   
   SDL_SetRenderDrawColor(app->ren, 0, 0, 0, SDL_ALPHA_OPAQUE);
 
