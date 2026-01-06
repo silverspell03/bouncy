@@ -18,9 +18,9 @@
 #define WIDTH 900
 #define HEIGTH 600
 #define K_F 0
-#define CHANNELS 1
-#define SAMPLE_RATE 48000
-#define AUDIO_FORMAT SDL_AUDIO_F32
+#define CHANNELS 2
+#define SAMPLE_RATE 44100
+#define AUDIO_FORMAT SDL_AUDIO_S16
 
 
 typedef struct {
@@ -89,12 +89,13 @@ void BoomSound(App *app)
   Uint8 *con_buf = NULL;
   int con_len = 0;
 
+
   if (!SDL_ConvertAudioSamples(&src_spec, src_buf, src_len, &target, &con_buf, &con_len))
   {
     printf("Erreur conversion\n%s", SDL_GetError());
     return;
   }
-  if (!SDL_PutAudioStreamData(app->stream, wav_buf, wav_len))
+  if (!SDL_PutAudioStreamData(app->stream, con_buf, con_len))
   {
     printf("Error putting data on stream\n%s", SDL_GetError());
     return;
