@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.26)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(bouncy)
@@ -13,7 +13,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 find_package(SDL3 REQUIRED)
 
 # Create your game executable target as usual
-add_executable(bouncy WIN32 bouncy.c)
+add_executable(bouncy WIN32 bouncy.cpp)
 
 # Link to the actual SDL3 library.
 target_link_libraries(bouncy PRIVATE SDL3::SDL3 m)
