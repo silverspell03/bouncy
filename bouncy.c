@@ -9,7 +9,6 @@
 #include <SDL3/SDL_stdinc.h>
 #include <SDL3/SDL_video.h>
 #include <math.h>
-#include <pthread_time.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
