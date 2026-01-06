@@ -109,14 +109,19 @@ void UpdateBallsPhysics(App *app, double dt)
   Balle *balles = ctx->balles;
   for (int i = 0; i < ctx->n; i++) 
   {
-    float k;
+    float kx, ky;
     if (balles[i].yv > 0)
-      k = -K_F;
+      ky = -K_F;
     else 
-      k = K_F;
-    float a = ACCEL + k;
-    balles[i].xv += 0;
-    balles[i].yv += a * dt;
+      ky = K_F;
+    if (balles[i].xv > 0)
+      kx = K_F;
+    else 
+      kx = -K_F;
+
+    float ay = ACCEL + ky;
+    balles[i].xv += kx * dt;
+    balles[i].yv += ay * dt;
     balles[i].x += balles[i].xv * dt;
     balles[i].y += balles[i].yv * dt;
     if (balles[i].y >= HEIGTH - (balles[i].r))
